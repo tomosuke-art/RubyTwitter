@@ -1,0 +1,10 @@
+<h1>RubyTwitter</h1>
+<h3>新規Tweet</h3>
+<%= form_with url: tweets_path do |form| %>
+   <div class="field">
+    <%= form.label :投稿欄 %><br>
+    <%= form.text_area :body, :size => 140 %>
+  </div>
+  <%= form.submit "Tweetする" %>
+<% end %>
+<%= link_to "Tweet一覧に戻る", tweets_path %>
