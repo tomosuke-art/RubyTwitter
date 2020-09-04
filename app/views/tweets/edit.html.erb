@@ -1,0 +1,6 @@
+<%= form_with url: tweets_path do |f| %>
+　<%= f.label :body %>
+  <%= f.text_field :body, :size => 140 %> 
+  <%= f.submit "編集する" %>
+<% end %>
+<%= link_to "Tweet一覧に戻る", tweets_path %>
