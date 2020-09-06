@@ -4,6 +4,7 @@
 <h3>Tweet一覧</h3>
   <% @tweets.each do |t| %>
     <div class="tweet">
+      <%= t.user.email %>
       <div class="main-box">
         <div class="left-container"><%= t.body %></div>
         <div class="right-container">
@@ -16,6 +17,7 @@
     </div>
   <% end %>
   <div class= "link-list">
+      <%= link_to 'ログアウト', destroy_user_session_path, method: :delete %>
       <%= link_to "新規投稿ページ",tweets_new_path %>
       <%= link_to "Topへ", root_path %>
   </div>

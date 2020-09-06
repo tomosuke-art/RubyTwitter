@@ -1,4 +1,6 @@
 class TweetsController < ApplicationController
+  before_action :authenticate_user! #ログイン済みかどうかを認証
+
   def index
     @tweets = Tweet.all # 全てのtweetを取得
   end
@@ -10,6 +12,8 @@ class TweetsController < ApplicationController
 
   def create
     @tweets = Tweet.new(tweet_params) # フォームに入力された情報をもとにtweetを生成
+    @tweets.user_id = current_user.id
+    # current_user = 現在ログインしてるuser情報の取得
     if @tweets.save
       redirect_to :action => "index"
     else
