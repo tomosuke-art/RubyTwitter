@@ -7,6 +7,10 @@
       <br>
       <%= f.text_field :body,size: 140 %>
       <br>
+      <div class="field">
+          <%= f.label :image %>
+          <%= f.file_field :image %>
+      </div>
   <%= f.submit "送信" %>
   <br>
   <% end %>

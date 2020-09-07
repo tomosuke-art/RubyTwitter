@@ -47,7 +47,7 @@ class TweetsController < ApplicationController
 
   private
   def tweet_params # 受け取りたい情報だけに絞り込んでいる
-    params.permit(:body)
+    params.permit(:body,:image)
     # require(:tweet) -> 不要
   end
 end
