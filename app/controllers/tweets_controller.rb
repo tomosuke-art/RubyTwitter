@@ -2,7 +2,8 @@ class TweetsController < ApplicationController
   before_action :authenticate_user! #ログイン済みかどうかを認証
 
   def index
-    @tweets = Tweet.all # 全てのtweetを取得
+    @tweets = Tweet.all.page(params[:page]).per(6) # 全てのtweetを取得
+    # perメソッド = 1ページあたりに表示するツイート数
   end
 
   def new
