@@ -5,7 +5,7 @@ So this time I deployed with heroku.<br>
 But i haven't given up !!!!<br>
 I will study more and do my best to deploy on AWS next time　!!!!!<br>
 
-app URL is https://tomosuketwitter.herokuapp.com/ <br>
+app URL is  <br>https://tomosuketwitter.herokuapp.com/ <br>
 Please check it !<br>
 
 Things you may want to cover:
