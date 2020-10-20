@@ -1,13 +1,14 @@
-# README
+# Rubytwitter
 
-I wanted to deploy on AWS.But I can`t deploy on AWS.<br>
-So this time I deployed with heroku.<br>
-But i haven't given up !!!!<br>
-I will study more and do my best to deploy on AWS next time　!!!!!<br>
+AWSでデプロイする練習用に作ったアプリケーションです<br>
+機能などは必要最小限しかありません<br>
+AWSでのデプロイを試みましたが、理解するのが難しく約1000円ほどの請求も来て恐ろしくなり諦めました<br>
+いつの日かリベンジしたいです<br>
 
-app URL is  <br>https://tomosuketwitter.herokuapp.com/ <br>
+アプリURL: https://tomosuketwitter.herokuapp.com/ <br>
 Please check it !<br>
 
+<img src="https://user-images.githubusercontent.com/63577068/96539465-0ddfbc80-12d6-11eb-96ed-2a997ca52f62.png" width="300px"><img src="https://user-images.githubusercontent.com/63577068/96539637-83e42380-12d6-11eb-9465-196986a994bc.png" width="300px"><img src="https://user-images.githubusercontent.com/63577068/96539784-e0474300-12d6-11eb-992e-f5866d3b95a8.png" width="300px">
 Things you may want to cover:
 
 * Ruby version
