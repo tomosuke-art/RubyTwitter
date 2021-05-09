@@ -4890,7 +4890,7 @@ original@^1.0.0:
   resolved "https://registry.yarnpkg.com/original/-/original-1.0.2.tgz#e442a61cffe1c5fd20a65f3261c26663b303f25f"
   integrity sha512-hyBVl6iqqUOJ8FqRe+l/gS8H+kKYjrEndd5Pm1MfBtsEKA038HkkdbAl/72EAXGyonD/PFsvmVG+EvcIpliMBg==
   dependencies:
-    url-parse "^1.4.3"
+    url-parse "^1.5.0"
 
 os-browserify@^0.3.0:
   version "0.3.0"
@@ -6547,7 +6547,7 @@ sockjs-client@1.4.0:
     faye-websocket "~0.11.1"
     inherits "^2.0.3"
     json3 "^3.3.2"
-    url-parse "^1.4.3"
+    url-parse "^1.5.0"
 
 sockjs@0.3.20:
   version "0.3.20"
@@ -7228,7 +7228,7 @@ urix@^0.1.0:
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-url-parse@^1.4.3:
+url-parse@^1.5.0:
   version "1.4.7"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
   integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
