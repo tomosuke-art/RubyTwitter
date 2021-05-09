@@ -52,6 +52,10 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem "activerecord", ">= 6.0.3.5"
+gem "nokogiri", ">= 1.11.0"
+gem "actionview", ">= 6.0.3.3"
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'kaminari'
